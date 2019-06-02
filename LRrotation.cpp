@@ -1,4 +1,21 @@
-#include <iostream>
+#Left Rotation and Right Rotation of a NUmber
+/*
+Input : s = "GeeksforGeeks"
+        d = 2
+Output : Left Rotation  : "eksforGeeksGe" 
+         Right Rotation : "ksGeeksforGee"  
+
+
+Input : s = "qwertyu" 
+        d = 2
+Output : Left rotation : "ertyuqw"
+         Right rotation : "yuqwert"
+
+*/
+
+
+
+include <iostream>
 using namespace std;
 
 void reverse(int arr[], int start ,int end)
